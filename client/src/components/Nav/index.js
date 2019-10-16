@@ -7,9 +7,10 @@ function Nav() {
       <Link className="navbar-brand" to="/">
         React Reading List
       </Link>
-      <Link className="navbar-brand" to="/kasdkugasdiasgudasyjgdasuyfas">
-        No Match
+      <Link className="navbar-brand" to="/books/:id">
+        My Fav books
       </Link>
+
     </nav>
   );
 }
